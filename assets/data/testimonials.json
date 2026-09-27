@@ -1,0 +1,29 @@
+[
+  {
+    "id": "1",
+    "name": "Sarah Müller",
+    "role": "CPO",
+    "company": "Novu",
+    "avatarUrl": "https://i.pravatar.cc/160?img=11",
+    "rating": 5,
+    "quote": "Eliott delivered our redesign in record time and the quality blew us away. Our conversion rate jumped 28% in the first month. Absolutely recommend."
+  },
+  {
+    "id": "2",
+    "name": "Thomas Renault",
+    "role": "Founder",
+    "company": "Finlo",
+    "avatarUrl": "https://i.pravatar.cc/160?img=52",
+    "rating": 5,
+    "quote": "Working with Eliott is a dream. He asks the right questions, moves fast, and the final result always exceeds what we imagined. Our best hire of 2024."
+  },
+  {
+    "id": "3",
+    "name": "Camille Dufresne",
+    "role": "Creative Director",
+    "company": "Orea",
+    "avatarUrl": "https://i.pravatar.cc/160?img=47",
+    "rating": 5,
+    "quote": "We had a tight deadline and a vague brief. Eliott turned both into a polished site in under two weeks. Clean code, zero hand-holding needed."
+  }
+]

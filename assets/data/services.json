@@ -1,0 +1,23 @@
+[
+  {
+    "id": "ui-ux-design",
+    "iconKey": "design",
+    "title": "UI/UX Design",
+    "description": "From wireframes to polished Figma prototypes. Intuitive, visually compelling interfaces that convert visitors into users and put usability first.",
+    "isHighlighted": false
+  },
+  {
+    "id": "frontend-dev",
+    "iconKey": "code",
+    "title": "Frontend Dev",
+    "description": "Production-grade code with modern web standards. Pixel-perfect, fully responsive, SEO-friendly and blazing fast — no bloat, no heavy frameworks.",
+    "isHighlighted": true
+  },
+  {
+    "id": "landing-pages",
+    "iconKey": "layout",
+    "title": "Landing Pages",
+    "description": "High-converting pages for SaaS, apps and personal brands. Designed to communicate value instantly and drive action from the first scroll.",
+    "isHighlighted": false
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1",
+    "slug": "why-i-ditched-heavy-css-frameworks-for-tailwind",
+    "title": "Why I ditched heavy CSS frameworks for Tailwind — and what changed",
+    "category": "Design",
+    "date": "March 8, 2025",
+    "readTime": "7 min read",
+    "excerpt": "After years of fighting specificity wars and unused kilobytes, here's what finally convinced me to make the switch — and the measurable impact it had on both my workflow and my clients' performance scores.",
+    "content": "For nearly six years, my standard tech stack began with whatever component library promised to speed up development. Whether it was Bootstrap, Bulma, or custom SCSS architectures, the trajectory was always the same: rapid prototyping during the first week, followed by months of battling specificity conflicts, !important overrides, and ballooning bundle sizes.\n\n### The Specificity Trap\n\nWhen multiple developers contribute to a traditional CSS codebase, styles inevitably leak across component boundaries. Even with BEM methodology, naming conventions break down under pressure. Utilities like utility-first engines change the entire equation by decoupling visual styles from semantic component abstractions.\n\n### Zero Runtime Overhead\n\nBecause atomic classes map directly to static CSS declarations, unused styles are purged entirely at compile time. On average, our production stylesheets dropped from 140KB down to a mere 8KB gzipped. That translates directly into better Largest Contentful Paint (LCP) and zero layout shifts.\n\n### Key Takeaways for Teams\n\n1. Maintain strict design token discipline in your configuration.\n2. Compose reusable widget abstractions rather than copy-pasting class strings.\n3. Enforce accessibility checks natively into your development pipeline.",
+    "coverImage": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=900&q=80",
+    "isFeatured": true
+  },
+  {
+    "id": "2",
+    "slug": "building-a-design-system-from-scratch-in-a-weekend",
+    "title": "Building a design system from scratch in a weekend",
+    "category": "Dev",
+    "date": "February 21, 2025",
+    "readTime": "5 min read",
+    "excerpt": "Tokens, components, docs — the step-by-step process I follow to spin up a coherent, scalable system in 48 hours without getting bogged down in endless bikeshedding.",
+    "content": "Most design systems fail not because of bad design, but because teams attempt to solve every hypothetical edge case before shipping their first production screen.\n\n### The 3-Tier Token Strategy\n\nBegin with primitive tokens: your raw color palette (50 through 950 scales), base typography scales, and geometric spacers. Next, establish semantic alias tokens (e.g. surface-primary, text-muted, border-focus). Finally, map these tokens to specific component contracts.\n\n### Start with Only 5 Components\n\nYou do not need 40 components on Day 1. Start with the essential primitives that represent 80% of your user interface:\n\n- Button (Primary, Secondary, Ghost, Shimmer)\n- Input & Form Field (with floating label and error feedback)\n- Card & Container\n- Badge & Tag\n- Navigation Bar / App Header\n\nOnce these five primitives are rock solid, composing dashboards and landing pages becomes a matter of assembly rather than reinventing styles from scratch.",
+    "coverImage": "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?w=700&q=80",
+    "isFeatured": false
+  },
+  {
+    "id": "3",
+    "slug": "5-lessons-from-my-first-year-of-full-time-freelancing",
+    "title": "5 lessons from my first year of full-time freelancing",
+    "category": "Freelance",
+    "date": "January 14, 2025",
+    "readTime": "6 min read",
+    "excerpt": "Contracts, pricing, scope creep, and client communication — the critical realities nobody warns you about before you leave your salaried agency job.",
+    "content": "Transitioning from a salaried role to independent consulting is exhilarating, but the learning curve is steep. Here are the five foundational lessons that made all the difference during my first year solo.\n\n### 1. Value Pricing Over Hourly Billing\n\nClients do not care how many hours you stare at a screen; they care about business outcomes. A landing page that increases enterprise demo requests by 25% provides immense ROI. Price according to the impact created, not the minutes logged.\n\n### 2. Scope Creep Destroys Momentum\n\nNever begin work without a clearly written Statement of Work that explicitly states both what IS included and what IS NOT included. When clients request additional features, respond with: 'I would love to build that! Let me send over a change order quote.'\n\n### 3. Asynchronous Communication is a Superpower\n\nReplace endless status meetings with 3-minute Loom video walkthroughs and concise bulleted progress reports. Clients respect clear, self-contained documentation that saves them time.",
+    "coverImage": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=700&q=80",
+    "isFeatured": false
+  },
+  {
+    "id": "4",
+    "slug": "micro-interactions-that-delight-users",
+    "title": "Crafting micro-interactions that elevate web experiences",
+    "category": "Design",
+    "date": "December 18, 2024",
+    "readTime": "4 min read",
+    "excerpt": "Subtle hover translations, tactile spring curves, and state morphs that turn a functional product into a memorable digital experience.",
+    "content": "Great interface design often lives in the micro-details that users feel rather than consciously notice.\n\n### The Physics of Smooth Motion\n\nStandard linear easing feels robotic and unnatural. Natural physical motion features acceleration and deceleration. In our CSS and Flutter motion systems, we prefer cubic bezier curves like (0.4, 0.0, 0.2, 1.0) with subtle 4px elevation rises and shimmer sweeps.\n\n### Feedback Loops\n\nEvery interactive element must provide instant visual confirmation upon interaction: subtle scale depression on tap, smooth color transitions on hover, and clear focused outlines for keyboard navigation.",
+    "coverImage": "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?w=700&q=80",
+    "isFeatured": false
+  }
+]
